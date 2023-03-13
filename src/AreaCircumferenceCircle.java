@@ -5,7 +5,7 @@ public class AreaCircumferenceCircle {
         //pi constant
         final float pi = (float) 3.14;
 
-        try (Scanner sc = new Scanner(System.in)) {
+        Scanner sc = new Scanner(System.in);
             //float r from user input
             System.out.println("Enter value of r: ");
             float r = sc.nextFloat();
@@ -16,6 +16,5 @@ public class AreaCircumferenceCircle {
 
             //result
             System.out.println("The area is " + area + " and the circumference is " + circumference);
-        }
     }
 }
