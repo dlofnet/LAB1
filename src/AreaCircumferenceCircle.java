@@ -15,7 +15,7 @@ public class AreaCircumferenceCircle {
             float circumference = 2 * pi * r;
 
             //result
-            System.out.println("The are is " + area + " and the circumference is " + circumference);
+            System.out.println("The area is " + area + " and the circumference is " + circumference);
         }
     }
 }
